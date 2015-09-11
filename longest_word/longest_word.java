@@ -9,7 +9,18 @@ import java.io.*;
 class Function {  
   String LongestWord(String sen) { 
   
-    // code goes here   
+    // code goes here
+	  String[] wordsArray=sen.split(" ");
+
+	  int maxsize = 0;
+	  String maxWord = "";
+
+	  	for (int=0; i<wordsArray.length; i++){
+			if (wordsArray[i].length()>maxsize){
+				maxWord=wordsArray[i];
+				maxsize = wordsArray[i].length();
+			}
+		}
        
     return sen;
     
@@ -18,7 +29,7 @@ class Function {
   public static void main (String[] args) {  
     // the function call should go here    
    
-  }   
+  }     //not sure at how to do this part
   
 }
 
