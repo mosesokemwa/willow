@@ -4,28 +4,24 @@
 
 import java.util.Scanner;
 public class User {
-
-	int adds_n(int num) {
+	static int sum = 0;
+	static int adds_n(int num) {
 		if(num > 1000){
 			System.out.println("unknown number");
 		}else{
 	       for(int i = 0; i <= num; i++){
-	    	   System.out.println(i);
+	    	   sum = sum + i;
 	       }
 		}
-	    return num;
+	    return sum;
 
 	  }
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner  s = new Scanner(System.in);
-    User usr = new User();
-	  System.out.print(usr.adds_n(s.nextInt()));
+		System.out.println("enter an integer betwn 1 - 1000");
+	    //Function c = new Function();
+	    System.out.print(adds_n(s.nextInt()));
 	}
 
 }
-
-
-
-
-
