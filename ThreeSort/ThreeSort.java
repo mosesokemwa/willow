@@ -15,3 +15,12 @@
 // Example:
 // ThreeSort.threeSort(9,4,6); // [4,6,9]
 // ThreeSort.threeSort(3,2,1); // [1,2,3]
+
+import java.util.Arrays
+
+public class sort {
+	int[]arr={num1, num2, num3}
+	arr.sort
+	return []
+
+}
