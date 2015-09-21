@@ -28,8 +28,7 @@ class Function {
   
   public static void main (String[] args) {  
     // the function call should go here    
-   
-        //not sure at how to do this part
+
 	    // I think i found a way
 	  Strings[] food = {"Ugali", "beans", "Chapati" };
 	  String sen = getsen(Chapati);
