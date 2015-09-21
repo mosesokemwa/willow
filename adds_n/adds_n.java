@@ -3,12 +3,18 @@
 //For the test cases, the parameter num will be any number from 1 to 1000. 
 
 
-import java.util.*; 
+import java.util.scanner;
 import java.io.*;
 
 class Function {  
   static int adds_n(int num) { 
-       
+       if(num > 500){
+    	   System.out.print("uknown number");
+       }else{
+    	   for(int i = 0; i <= num; i++){
+    		   System.out.println(i);
+    	   }
+       }
     return num;
     
   } 
