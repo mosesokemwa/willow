@@ -3,22 +3,36 @@
 // the scanner object should be in the main method, from where we are going to call our function for testing
 // it should take string input from a user
 
-public class capitalize {
 
-	/**
-	 * @author Okemwa
-	 */
+import java.util.Scanner;
+import java.util.Arrays;
+
+public class capitalize(str) {
+	
+	String[] token = str.split(" ");
+	
+	for(int i = 0; i < token.length; ++i) {
+    if(token[i].length() > 0) {
+        char[] digit = token[i].toCharArray();
+	        digit[0] = Character.toUpperCase(digit[0]);
+	        token[i] = new String(digit);
+	    }
+	    else {
+	        System.out.print(" ");
+		    }
+    return token;
+	}
+
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		words= string.split(" ");
-		string = " ";
-		for(String w: words)
-			word = word.toUpperCase().replace(word.substring(1)), word.substring(1).toLowerCase());
-			string += word;
 
+		
+		System.out.print("Hi, type in your sentence: ");
+		
+		Scanner input = new Scanner(System.in);
+		String token = input.nextLine();
+		
+		System.out.println(token);
 
 	}
 
 }
-
-
