@@ -8,7 +8,7 @@ void InsertionSort(ListA){
 				A[i+1] = A[i];
 				i--;
 			}
-			A[i+1]=temp
+			A[i+1]=temp;
 		}
 	}
 }
