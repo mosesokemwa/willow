@@ -19,22 +19,14 @@
 # gigasecond(1988, 5, 15) # ["2020-01-22", "Wednesday", "1764 days left"]
 # gigasecond(2015, 2, 17) # ["2046-10-26", "Friday", "11538 days left"]
 
-import datetime, time
+
+from datetime import date,timedelta
+
+WEEKDAYS = ("Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday")
+
 def get_user_b_date(year,month,day):
-    list_date = []
-    list_date.append(str(year))
-    list_date.append(str(month))
-    list_date.append(str(day))
-
-    date_con = ','.join(list_date)
-    t = datetime.datetime(int(list_date[0]),int(list_date[1]),int(list_date[2]))
-    time_living = time.mktime(t.timetuple())
-    gig_secs = 10 ** 9
-    time_rem = gig_secs - time_living
-
-
-#print int(datetime.timedelta(seconds=10 ** 9) - time_living )
-
-
-get_user_b_date(1992,8,31)
-
+	giga_birthsecond = date(year, month, day) + timedelta(seconds=10 ** 9)
+	birthday = WEEKDAYS[giga_birthsecond.weekday()]
+	days_left = (giga_birthsecond - date.today()).days
+	print(giga_birthsecond, birthday, days_left, "days left")
+print(get_user_b_date(1990,1,24))
