@@ -19,6 +19,7 @@
 # gigasecond(1988, 5, 15) # ["2020-01-22", "Wednesday", "1764 days left"]
 # gigasecond(2015, 2, 17) # ["2046-10-26", "Friday", "11538 days left"]
 
+<<<<<<< HEAD
 
 from datetime import date,timedelta
 
@@ -30,3 +31,5 @@ def get_user_b_date(year,month,day):
 	days_left = (giga_birthsecond - date.today()).days
 	print(giga_birthsecond, birthday, days_left, "days left")
 print(get_user_b_date(1990,1,24))
+=======
+>>>>>>> f347e7377ef4164b748122e31ee0426e6876fe2d

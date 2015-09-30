@@ -5,6 +5,7 @@
 
 #NB do not use the swapcase python method.
 <<<<<<< HEAD
+<<<<<<< HEAD
 import string;
 
 def SwapCase(str):
@@ -34,3 +35,6 @@ print SwapCase("The Broom Is TOO LONG FoR no reAson")
 =======
 
 >>>>>>> 151c9180852fb608c42686954fa33ca2d992fc56
+=======
+
+>>>>>>> f347e7377ef4164b748122e31ee0426e6876fe2d
