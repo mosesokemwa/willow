@@ -4,6 +4,7 @@
 #Let numbers and symbols stay the way they are.
 
 #NB do not use the swapcase python method.
+<<<<<<< HEAD
 import string;
 
 def SwapCase(str):
@@ -30,3 +31,6 @@ def SwapCase(str):
 	return new_string
 
 print SwapCase("The Broom Is TOO LONG FoR no reAson")
+=======
+
+>>>>>>> 151c9180852fb608c42686954fa33ca2d992fc56
