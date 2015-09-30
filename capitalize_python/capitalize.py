@@ -4,13 +4,11 @@
 # do not use the capitalize method
 
 
-import sys
+def upperfirst(x):
+    return x[0].upper() + x[1:]
 
+x = 'this Is Camel Case'
 
-def main():
-    with open(sys.argv[1], "r") as f:
-        for line in f:
-            print(' '.join(map(lambda e: e[0].upper() + e[1:], line.rstrip().split())))
+y = upperfirst(x)
 
-if __name__ == "__main__":
-    main("jungle heaven")
+print(y)
