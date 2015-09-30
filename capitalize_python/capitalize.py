@@ -7,8 +7,17 @@
 def upperfirst(x):
     return x[0].upper() + x[1:]
 
-x = 'this Is Camel Case'
+
+x = input("Enter a sentence: ")
+while x == "":
+	x = input("Enter a sentence: ")
+else:
+	print (x)
 
 y = upperfirst(x)
-
 print(y)
+
+
+
+
+
