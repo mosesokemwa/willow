@@ -2,7 +2,7 @@
 // the first letter of each word. Words will be separated by only one space.
 // use the main method for testing and call the function from the main method
 // it should take string input from a user
-<<<<<<< HEAD
+
 
 
 import java.util.Scanner;
@@ -37,5 +37,3 @@ public class capitalize(str) {
 	}
 
 }
-=======
->>>>>>> 7cccf75f5eeb839e84d646aac854e19e5f5c68c8

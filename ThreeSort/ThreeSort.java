@@ -15,8 +15,6 @@
 // Example:
 // ThreeSort.threeSort(9,4,6); // [4,6,9]
 // ThreeSort.threeSort(3,2,1); // [1,2,3]
-<<<<<<< HEAD
-<<<<<<< HEAD
 
 import java.util.Arrays
 
@@ -24,9 +22,7 @@ public class sort {
 	int[]arr={num1, num2, num3}
 	arr.sort
 	return []
-=======
-=======
->>>>>>> be7de606aeffec9408ed9ac9da88a5543913ebaf
+
 import java.util.Arrays;
 
 public class ThreeSort {
@@ -52,9 +48,5 @@ public class ThreeSort {
 		int result[] = threeSort(15, 14, 13);
 		System.out.println(Arrays.toString(result));
 	}
-<<<<<<< HEAD
->>>>>>> be7de606aeffec9408ed9ac9da88a5543913ebaf
-=======
->>>>>>> be7de606aeffec9408ed9ac9da88a5543913ebaf
 
 }
