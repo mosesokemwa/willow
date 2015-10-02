@@ -8,7 +8,7 @@ def upperfirst(x):
     return x[0].upper() + x[1:]
 
 
-x = input("Enter a sentence: ") #raw_input was changed to input 									in python 3.4.3
+x = input("Enter a sentence: ") #raw_input was changed to input in python 3.4.3
 while x == "":
 	x = input("Enter a sentence: ")
 else:
