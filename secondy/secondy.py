@@ -23,3 +23,8 @@ def Secondy(lis):
 
 # keep this function call below here
 print Secondy([-45, 0, 3, 10, 90, 5, -2, 4, 18, 45, 100, 1, -266, 706])
+
+
+l = [-45, 0, 3, 10, 90, 5, -2, 4, 18, 45, 100, 1, -266, 706]
+print sorted(set(l))[-2] #sorts lis in ascending order and returns the second highest value
+print sorted(set(l))[1] #sorts lis in ascending order and returns the second lowest value
