@@ -25,6 +25,12 @@ def Secondy(lis):
 print Secondy([-45, 0, 3, 10, 90, 5, -2, 4, 18, 45, 100, 1, -266, 706])
 
 
-l = [-45, 0, 3, 10, 90, 5, -2, 4, 18, 45, 100, 1, -266, 706]
-print sorted(set(l))[-2] #sorts lis in ascending order and returns the second highest value
-print sorted(set(l))[1] #sorts lis in ascending order and returns the second lowest value
+
+
+#alternate solution
+
+lis = [-45, 0, 3, 10, 90, 5, -2, 4, 18, 45, 100, 1, -266, 706]
+print sorted(set(lis))[-2]  #sorts lis in ascending order and takes out duplicate numbers
+						   	#returns the second highest value
+print sorted(set(lis))[1] 	#sorts lis in ascending order and takes out duplicate)
+							#returns the second lowest value
