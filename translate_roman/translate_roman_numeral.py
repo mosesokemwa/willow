@@ -12,3 +12,16 @@
 # translateRomanNumeral("IV") # 4
 #
 # You should return `nil` on invalid input.
+
+
+def romanNumeral(string):
+	values = {"i":1, "v":5, "x":10, "l":50, "c":100, "m":1000}
+
+
+	return sum(map(lambda x: values[x], string))
+print romanNumeral("vxiilm")
+
+
+#map(func, seq) is a function with two arguments
+#Lambda functions are mainly used in combination with the functions filter(), map() and reduce()
+
