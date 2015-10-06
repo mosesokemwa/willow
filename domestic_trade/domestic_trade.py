@@ -41,10 +41,10 @@ def domestic_trade(itemId):
 	temp = 0
 	largest = " "
 
-	for r in data:
+	for r in data:#looping through data
 		col = r.split(",")
 
-		if itemId in col[1]:
+		if itemId in col[1]:#looping through col
 			temp = int(col[2][:5])
 			total += temp
 			if temp > amnt:
