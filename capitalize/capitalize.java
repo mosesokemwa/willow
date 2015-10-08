@@ -13,11 +13,11 @@ public class capitalize(str) {
 	String[] token = str.split(" ");
 	
 	for(int i = 0; i < token.length; ++i) {
-    if(token[i].length() > 0) {
-        char[] digit = token[i].toCharArray();
-	        digit[0] = Character.toUpperCase(digit[0]);
-	        token[i] = new String(digit);
-	    }
+		if(token[i].length() > 0) {
+        	char[] digit = token[i].toCharArray();
+	        	digit[0] = Character.toUpperCase(digit[0]);
+	        	token[i] = new String(digit);
+		}
 	    else {
 	        System.out.print(" ");
 		    }
