@@ -6,6 +6,7 @@
 #   '((()'
 #   '())('
 
+
 def paren(str):
 	for i in str:
 		if i.count("(") == i.count(")"):
