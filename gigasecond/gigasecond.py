@@ -27,17 +27,17 @@ WEEKDAYS = ("Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", 
 
 def get_user_b_date(year,month,day):
 
-	#getting to be lived before giga_second
+	# getting to be lived before giga_second
 	giga_birthsecond = date(year, month, day) + timedelta(seconds=10 ** 9)
 
-	#calling on import datetime using WEEKDAYS list
+	# calling on import datetime using WEEKDAYS list
 	anniversary = WEEKDAYS[giga_birthsecond.weekday()]
 
-	#time to be lived minus current date(which varies)
+	# time to be lived minus current date(which varies)
 	days_left = (giga_birthsecond - date.today()).days
 
-	#output
+	# output
 	print(anniversary, days_left, "days left")
 
-#calling our function with a random variable
-print(get_user_b_date(1991,1,24))
+# calling our function with a random variable
+print(get_user_b_date(1991, 1, 24))

@@ -17,7 +17,7 @@ def Secondy(lis):
 	print m[1] #the second highest element.
 
 	for num in lis:
-		m = sorted(m + [num])[:2] #appends num to m and sorts it, takes only top 2
+		m = sorted(m + [num])[:2] # appends num to m and sorts it, takes only top 2
 	print m[1] #the second lowest element is printed out
 
 
