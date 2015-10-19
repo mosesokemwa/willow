@@ -16,20 +16,28 @@
 // ThreeSort.threeSort(9,4,6); // [4,6,9]
 // ThreeSort.threeSort(3,2,1); // [1,2,3]
 
-import java.util.Arrays
 
-public class sort {
-	int[]arr={num1, num2, num3}
-	arr.sort
-	return []
+
+
+// import java.util.Arrays
+
+// public class sort {
+// 	int[]arr={num1, num2, num3}
+// 	arr.sort
+// 	return []
 
 import java.util.Arrays;
 
 public class ThreeSort {
-
 	/**
 	 * @param args
 	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int result[] = threeSort(15, 14, 13);
+		System.out.print(Arrays.toString(result));
+	}
+
 	public static int[] threeSort(int num1, int num2, int num3){
 
 		int max = Math.max(num1, num2);
@@ -40,13 +48,7 @@ public class ThreeSort {
 
 
 		int[] result = {minfinal, mid, maxfinal};
-		return result;
-
-	}
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		int result[] = threeSort(15, 14, 13);
-		System.out.println(Arrays.toString(result));
+	return result;
 	}
 
 }
