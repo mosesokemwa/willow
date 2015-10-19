@@ -46,3 +46,6 @@ def SwapCase(str):
 	return new_string
 
 print SwapCase("It DOeS nothing to INTEGRs like 662258793, @Booleans & WierD")
+
+
+
