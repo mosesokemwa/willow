@@ -35,13 +35,13 @@ def CaesarCipher(string, num):
     alphabet = [
         "a", "b", "c", "d", "e", "f", "g", "h",
         "i", "j", "k", "l", "m", "n", "o", "p",
-        "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"
-        # "A", "B", "C", "D", "E", "F", "G", "H",
-        # "I", "J", "K", "L", "M", "N", "O", "P",
-        # "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"
+        "q", "r", "s", "t", "u", "v", "w", "x", "y", "z",
+        "A", "B", "C", "D", "E", "F", "G", "H",
+        "I", "J", "K", "L", "M", "N", "O", "P",
+        "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"
     ]
 
-    # Create our substitution dictionary
+    # This is our substitution dictionary
     dic = {}
     for i in range(0, len(alphabet)):
         dic[alphabet[i]] = alphabet[(i + num) % len(alphabet)]
