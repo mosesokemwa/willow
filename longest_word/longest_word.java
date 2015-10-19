@@ -12,12 +12,12 @@ class Function {
 	  String[] wordsArray=sen.split(" ");
 	  int maxsize = 0;
 	  String maxWord = "";
-    for (int=0; i < wordsArray.length; i++){
-		    if (wordsArray[i].length()>maxsize){
-				      maxWord=wordsArray[i];
-				      maxsize = wordsArray[i].length();
-			}
+    for (int=0; i < wordsArray.length ; i++){
+	    if (wordsArray[i].length()>maxsize){
+			maxWord=wordsArray[i];
+			maxsize = wordsArray[i].length();
 		}
+	}
     return sen;
   }
   public static void main (String[] args) {
