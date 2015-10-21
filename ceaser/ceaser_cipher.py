@@ -42,6 +42,7 @@ def CaesarCipher(string, num):
     ]
 
     # This is our substitution dictionary
+    #  made by addding num to each letters index alphabet
     dic = {}
     for i in range(0, len(alphabet)):
         dic[alphabet[i]] = alphabet[(i + num) % len(alphabet)]
