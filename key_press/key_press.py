@@ -49,7 +49,11 @@
 
 def presses(str):
     # Your Code Here!
-    cell = {"ADGEJMPTW": 1, "BCEHKNQUX": 2, "CFILORVY": 3, "SZ234568": 4, "79": 5}
+    cell = {"ADGEJMPTW": 1,
+            "BCEHKNQUX": 2,
+            "CFILORVY": 3,
+            "SZ234568": 4,
+            "79": 5}
 
     num = 0
 
