@@ -1,8 +1,13 @@
- # Using PYTHON solve the problem below:
-
- # Remove duplicate characters in a given string keeping only the first occurrences. 
- # For example, if the input is ‘tree traversal’ the output will be "tre avsl".
+# Using PYTHON solve the problem below:
+# Remove duplicate characters in a given string keeping only the first occurrences.
 
 def removeDuplicates(string):
- 	# Your code here!
-
+# Your code here!
+	clean = ""
+	for i in string:
+		if i not in clean:
+			clean += i
+	return clean
+print removeDuplicates("tree transversal")
+print removeDuplicates("characters")
+print removeDuplicates("5521866958")
