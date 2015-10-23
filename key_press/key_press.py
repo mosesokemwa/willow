@@ -22,6 +22,7 @@
 # ------- ------- -------
 
 
+<<<<<<< HEAD
 # Before predictive text entry systems like T9, you had to press a button
 # repeatedly to cycle through the possible values until you reached
 # the one you wanted.
@@ -36,6 +37,19 @@
 # any phrase. Except for spaces, punctuation can be ignored.
 # Your function should accept both uppercase and lowercase letters
 # and treat them the same.
+=======
+# Before predictive text entry systems like T9, you had to press a button repeatedly to cycle through the possible values until you reached the one you wanted.
+# For example, to type "V8" you would press the 8 key three times and then
+# again four times (pressing the 8 key cycles through T->U->V->8), giving
+# us a total of seven key presses.
+
+# Note: the 0 key handles spaces and outputs 0 when tapped twice.
+
+# Write a function that can calculate the amount of button presses
+# required for any phrase. Except for spaces, punctuation can be ignored.
+# Your function should accept both uppercase and lowercase letters and
+# treat them the same.
+>>>>>>> e1e09342b550f52c74789669b097439f8513e5ca
 
 # Examples:
 
@@ -47,6 +61,7 @@
 # Bonus: Try to avoid hard-coding the number of button presses for each letter!
 
 
+<<<<<<< HEAD
 def presses(str):
     # Your Code Here!
     cell = {"ADGEJMPTW": 1,
@@ -63,3 +78,5 @@ def presses(str):
                 num += values
     return num
 print presses("V8")
+=======
+>>>>>>> e1e09342b550f52c74789669b097439f8513e5ca
