@@ -39,3 +39,10 @@ public class maximum_and_minimum{
   }
 
 }
+
+//in python
+
+//def findSmallestInt(arr):
+//    return min(arr)
+//    return max(arr)
+
